@@ -33,34 +33,34 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="152" id="h6w-CB-otk" customClass="CategoriesCellTableViewCell" customModule="shoping_app" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="152" id="h6w-CB-otk" customClass="CategoriesCellTableViewCell" customModule="shoping_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h6w-CB-otk" id="SrH-mv-7v9">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h6w-CB-otk" id="SrH-mv-7v9">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="fSe-xw-V35">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="fSe-xw-V35">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG5-F8-QBM">
-                                                    <rect key="frame" x="112" y="65" width="151" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="6M8-hJ-keb"/>
-                                                        <constraint firstAttribute="width" constant="151" id="RKJ-sn-o9e"/>
+                                                        <constraint firstAttribute="height" constant="150" id="WTI-Xu-QkU"/>
                                                     </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG5-F8-QBM">
+                                                    <rect key="frame" x="141" y="62" width="93" height="27.5"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="fSe-xw-V35" firstAttribute="top" secondItem="SrH-mv-7v9" secondAttribute="top" id="50x-qw-eof"/>
-                                                <constraint firstItem="pG5-F8-QBM" firstAttribute="centerY" secondItem="SrH-mv-7v9" secondAttribute="centerY" id="FxV-jU-05H"/>
-                                                <constraint firstItem="fSe-xw-V35" firstAttribute="leading" secondItem="SrH-mv-7v9" secondAttribute="leading" id="Rgy-Bx-vcP"/>
-                                                <constraint firstItem="pG5-F8-QBM" firstAttribute="centerX" secondItem="SrH-mv-7v9" secondAttribute="centerX" id="S67-lI-aPK"/>
-                                                <constraint firstAttribute="bottom" secondItem="fSe-xw-V35" secondAttribute="bottom" id="xq5-2c-ben"/>
-                                                <constraint firstAttribute="trailing" secondItem="fSe-xw-V35" secondAttribute="trailing" id="zbG-qR-5Me"/>
+                                                <constraint firstAttribute="trailing" secondItem="fSe-xw-V35" secondAttribute="trailing" id="IQ7-xm-yzX"/>
+                                                <constraint firstItem="fSe-xw-V35" firstAttribute="top" secondItem="SrH-mv-7v9" secondAttribute="top" id="L6r-2c-UcQ"/>
+                                                <constraint firstItem="fSe-xw-V35" firstAttribute="centerX" secondItem="SrH-mv-7v9" secondAttribute="centerX" id="SWS-i4-K8i"/>
+                                                <constraint firstItem="fSe-xw-V35" firstAttribute="leading" secondItem="SrH-mv-7v9" secondAttribute="leading" id="acz-9G-Noy"/>
+                                                <constraint firstAttribute="bottom" secondItem="fSe-xw-V35" secondAttribute="bottom" constant="5" id="fcs-Ao-ZZg"/>
+                                                <constraint firstItem="pG5-F8-QBM" firstAttribute="centerY" secondItem="SrH-mv-7v9" secondAttribute="centerY" id="oRP-ti-Tc6"/>
+                                                <constraint firstItem="pG5-F8-QBM" firstAttribute="centerX" secondItem="SrH-mv-7v9" secondAttribute="centerX" id="uxH-PL-ojp"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
