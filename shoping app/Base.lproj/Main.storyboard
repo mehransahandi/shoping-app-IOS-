@@ -137,7 +137,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="logo Tshiret " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6N-jf-Mtc">
-                                                    <rect key="frame" x="0.0" y="196" width="180" height="48"/>
+                                                    <rect key="frame" x="3" y="196" width="177" height="48"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="zBK-5N-Rsn"/>
                                                     </constraints>
@@ -146,7 +146,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price: 25$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwk-eh-4WW">
-                                                    <rect key="frame" x="0.0" y="249" width="180" height="34"/>
+                                                    <rect key="frame" x="3" y="249" width="177" height="34"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
@@ -155,9 +155,9 @@
                                         </view>
                                         <constraints>
                                             <constraint firstItem="UBE-fD-Vew" firstAttribute="top" secondItem="yzh-cP-1NA" secondAttribute="top" constant="9" id="0HS-x6-0Yu"/>
-                                            <constraint firstItem="wwk-eh-4WW" firstAttribute="leading" secondItem="yzh-cP-1NA" secondAttribute="leading" id="2JJ-Kt-1tj"/>
+                                            <constraint firstItem="wwk-eh-4WW" firstAttribute="leading" secondItem="yzh-cP-1NA" secondAttribute="leading" constant="3" id="2JJ-Kt-1tj"/>
                                             <constraint firstAttribute="bottom" secondItem="wwk-eh-4WW" secondAttribute="bottom" constant="5" id="9gq-WT-ann"/>
-                                            <constraint firstItem="k6N-jf-Mtc" firstAttribute="leading" secondItem="yzh-cP-1NA" secondAttribute="leading" id="Fwg-eb-ejT"/>
+                                            <constraint firstItem="k6N-jf-Mtc" firstAttribute="leading" secondItem="yzh-cP-1NA" secondAttribute="leading" constant="3" id="Fwg-eb-ejT"/>
                                             <constraint firstAttribute="trailing" secondItem="wwk-eh-4WW" secondAttribute="trailing" id="H1a-kC-uMC"/>
                                             <constraint firstItem="k6N-jf-Mtc" firstAttribute="top" secondItem="UBE-fD-Vew" secondAttribute="bottom" constant="9" id="QAH-UV-Lkq"/>
                                             <constraint firstItem="wwk-eh-4WW" firstAttribute="top" secondItem="k6N-jf-Mtc" secondAttribute="bottom" constant="5" id="QfT-K0-NCW"/>
@@ -205,6 +205,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.36862745098039218" green="0.086274509803921567" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
