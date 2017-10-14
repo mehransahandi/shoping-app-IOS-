@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct Category {
+struct CategoryStruct {
     private (set) public var Title : String
     private (set) public var ImageName : String
     

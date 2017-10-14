@@ -8,14 +8,14 @@
 
 import UIKit
 
-class CategoriesCellTableViewCell: UITableViewCell {
+class CategoriesCell: UITableViewCell {
 
     @IBOutlet weak var CategoryImage : UIImageView!
     @IBOutlet weak var CategoryTitle : UILabel!
     
    
 
-    func updateview (categories : Category) {
+    func updateview (categories : CategoryStruct) {
         
       CategoryImage.image = UIImage(named: categories.ImageName)
         CategoryTitle.text = categories.Title
